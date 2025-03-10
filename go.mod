@@ -1,6 +1,6 @@
 module github.com/dip-software/go-dip-api
 
-go 1.20
+go 1.24
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0
