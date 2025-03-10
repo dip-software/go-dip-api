@@ -16,9 +16,9 @@ import (
 	"github.com/dip-software/go-dip-api/internal"
 
 	autoconf "github.com/dip-software/go-dip-api/config"
+	hsdpsigner "github.com/dip-software/go-dip-signer"
 	"github.com/go-playground/validator/v10"
 	"github.com/google/go-querystring/query"
-	hsdpsigner "github.com/philips-software/go-nih-signer"
 )
 
 type tokenType int

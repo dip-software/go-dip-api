@@ -4,6 +4,7 @@ go 1.24
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0
+	github.com/dip-software/go-dip-signer v1.6.0
 	github.com/evanphx/json-patch/v5 v5.9.11
 	github.com/go-playground/validator/v10 v10.24.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
@@ -11,7 +12,6 @@ require (
 	github.com/google/go-querystring v1.1.0
 	github.com/google/uuid v1.6.0
 	github.com/hasura/go-graphql-client v0.13.1
-	github.com/philips-software/go-nih-signer v1.5.0
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/oauth2 v0.26.0
 )

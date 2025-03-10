@@ -19,7 +19,7 @@ import (
 
 	autoconf "github.com/dip-software/go-dip-api/config"
 
-	signer "github.com/philips-software/go-nih-signer"
+	signer "github.com/dip-software/go-dip-signer"
 )
 
 const (
