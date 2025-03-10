@@ -9,13 +9,13 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 
 	"github.com/google/go-querystring/query"
 )
 
 const (
-	userAgent   = "go-hsdp-api/iron/" + internal.LibraryVersion
+	userAgent   = "go-dip-api/iron/" + internal.LibraryVersion
 	IronBaseURL = "https://worker-aws-us-east-1.iron.io/"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 )
 
 // DataItemsService provides operations on TDR data items

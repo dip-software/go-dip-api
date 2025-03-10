@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 
-	"github.com/philips-software/go-hsdp-api/iam"
+	"github.com/dip-software/go-dip-api/iam"
 
-	autoconf "github.com/philips-software/go-hsdp-api/config"
+	autoconf "github.com/dip-software/go-dip-api/config"
 
 	signer "github.com/philips-software/go-nih-signer"
 )
@@ -26,7 +26,7 @@ const (
 	// TimeFormat is the time format used for the LogTime field
 	TimeFormat = "2006-01-02T15:04:05.000Z07:00"
 
-	userAgent = "go-hsdp-api/logging/" + internal.LibraryVersion
+	userAgent = "go-dip-api/logging/" + internal.LibraryVersion
 )
 
 var (

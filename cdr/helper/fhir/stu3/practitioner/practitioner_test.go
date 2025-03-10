@@ -3,7 +3,7 @@ package practitioner_test
 import (
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/cdr/helper/fhir/stu3/practitioner"
+	"github.com/dip-software/go-dip-api/cdr/helper/fhir/stu3/practitioner"
 	"github.com/stretchr/testify/assert"
 )
 

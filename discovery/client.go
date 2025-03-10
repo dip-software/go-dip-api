@@ -11,15 +11,15 @@ import (
 	"path"
 	"strings"
 
+	autoconf "github.com/dip-software/go-dip-api/config"
+	"github.com/dip-software/go-dip-api/iam"
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/go-playground/validator/v10"
 	"github.com/google/go-querystring/query"
-	autoconf "github.com/philips-software/go-hsdp-api/config"
-	"github.com/philips-software/go-hsdp-api/iam"
-	"github.com/philips-software/go-hsdp-api/internal"
 )
 
 const (
-	userAgent  = "go-hsdp-api/discovery/" + internal.LibraryVersion
+	userAgent  = "go-dip-api/discovery/" + internal.LibraryVersion
 	APIVersion = "1"
 )
 

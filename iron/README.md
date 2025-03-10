@@ -9,7 +9,7 @@ package main
 
 import (
         "fmt"
-        "github.com/philips-software/go-hsdp-api/iron"
+        "github.com/dip-software/go-dip-api/iron"
 )
 
 var (
@@ -47,7 +47,7 @@ package main
 
 import (
         "fmt"
-        "github.com/philips-software/go-hsdp-api/iron"
+        "github.com/dip-software/go-dip-api/iron"
 )
 
 var (

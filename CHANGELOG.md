@@ -401,6 +401,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Logging support
 - TDR basic support
 
-[Unreleased]: https://github.com/philips-software/go-hsdp-api/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/dip-software/go-dip-api/compare/1.0.0...HEAD
 
 - MDM: Support for bootstrap OAuth client scopes

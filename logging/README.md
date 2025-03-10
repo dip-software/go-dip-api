@@ -7,7 +7,7 @@ import (
         "net/http"
         "fmt"
         "time"
-        "github.com/philips-software/go-hsdp-api/logging"
+        "github.com/dip-software/go-dip-api/logging"
 )
 
 func main() {
@@ -46,11 +46,7 @@ func main() {
 
 ## Issues
 
-- If you have an issue: report it on the [issue tracker](https://github.com/philips-software/go-hsdp-api/issues)
-
-## Author
-
-Andy Lo-A-Foe (<andy.lo-a-foe@philips.com>)
+- If you have an issue: report it on the [issue tracker](https://github.com/dip-software/go-dip-api/issues)
 
 ## License
 

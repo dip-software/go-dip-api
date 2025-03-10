@@ -13,20 +13,20 @@ import (
 	"sync"
 	"time"
 
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/hasura/go-graphql-client"
-	"github.com/philips-software/go-hsdp-api/internal"
 	"golang.org/x/oauth2"
 
+	autoconf "github.com/dip-software/go-dip-api/config"
 	"github.com/go-playground/validator/v10"
 	"github.com/google/go-querystring/query"
-	autoconf "github.com/philips-software/go-hsdp-api/config"
 )
 
 type tokenType int
 type ContextKey string
 
 const (
-	userAgent = "go-hsdp-api/console/" + internal.LibraryVersion
+	userAgent = "go-dip-api/console/" + internal.LibraryVersion
 )
 
 type tokenResponse struct {

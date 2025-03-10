@@ -14,15 +14,15 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 
-	autoconf "github.com/philips-software/go-hsdp-api/config"
+	autoconf "github.com/dip-software/go-dip-api/config"
 
 	"github.com/google/go-querystring/query"
 )
 
 const (
-	userAgent = "go-hsdp-api/cartel/" + internal.LibraryVersion
+	userAgent = "go-dip-api/cartel/" + internal.LibraryVersion
 )
 
 // Config the client

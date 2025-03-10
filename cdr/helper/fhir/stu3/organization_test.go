@@ -3,7 +3,7 @@ package stu3_test
 import (
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/cdr/helper/fhir/stu3"
+	"github.com/dip-software/go-dip-api/cdr/helper/fhir/stu3"
 	"github.com/stretchr/testify/assert"
 )
 

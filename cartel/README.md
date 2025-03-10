@@ -7,7 +7,7 @@ Container Host is a HSDP service which provides a hardened Docker runtime enviro
 package main
 
 import (
-	"github.com/philips-software/go-hsdp-api/cartel"
+	"github.com/dip-software/go-dip-api/cartel"
 )
 
 func main() {
@@ -42,7 +42,7 @@ func main() {
 package main
 
 import (
-	"github.com/philips-software/go-hsdp-api/cartel"
+	"github.com/dip-software/go-dip-api/cartel"
 )
 
 func pretty(data []byte) string {
@@ -77,7 +77,7 @@ func main() {
 package main
 
 import (
-	"github.com/philips-software/go-hsdp-api/cartel"
+	"github.com/dip-software/go-dip-api/cartel"
 )
 
 func main() {

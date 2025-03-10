@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/config"
+	"github.com/dip-software/go-dip-api/config"
 
 	"github.com/stretchr/testify/assert"
 )

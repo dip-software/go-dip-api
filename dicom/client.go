@@ -10,17 +10,17 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/google/fhir/go/fhirversion"
 	"github.com/google/go-querystring/query"
-	"github.com/philips-software/go-hsdp-api/internal"
 
 	"github.com/google/fhir/go/jsonformat"
 
-	"github.com/philips-software/go-hsdp-api/iam"
+	"github.com/dip-software/go-dip-api/iam"
 )
 
 const (
-	userAgent  = "go-hsdp-api/dicom/" + internal.LibraryVersion
+	userAgent  = "go-dip-api/dicom/" + internal.LibraryVersion
 	APIVersion = "1"
 )
 

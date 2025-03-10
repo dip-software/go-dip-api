@@ -3,11 +3,11 @@ package mdm
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/go-playground/validator/v10"
 	"io"
 	"net/http"
 
-	"github.com/go-playground/validator/v10"
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 )
 
 const (

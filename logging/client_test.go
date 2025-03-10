@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/iam"
+	"github.com/dip-software/go-dip-api/iam"
 
 	"github.com/stretchr/testify/assert"
 

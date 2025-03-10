@@ -10,16 +10,16 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/google/fhir/go/fhirversion"
-	"github.com/philips-software/go-hsdp-api/internal"
 
 	"github.com/google/fhir/go/jsonformat"
 
-	"github.com/philips-software/go-hsdp-api/iam"
+	"github.com/dip-software/go-dip-api/iam"
 )
 
 const (
-	userAgent  = "go-hsdp-api/cdr/" + internal.LibraryVersion
+	userAgent  = "go-dip-api/cdr/" + internal.LibraryVersion
 	APIVersion = "1"
 )
 

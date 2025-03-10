@@ -3,7 +3,7 @@ package r4_test
 import (
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/cdr/helper/fhir/r4"
+	"github.com/dip-software/go-dip-api/cdr/helper/fhir/r4"
 	"github.com/stretchr/testify/assert"
 )
 

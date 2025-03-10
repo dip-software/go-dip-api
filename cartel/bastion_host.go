@@ -1,7 +1,7 @@
 package cartel
 
 import (
-	autoconf "github.com/philips-software/go-hsdp-api/config"
+	autoconf "github.com/dip-software/go-dip-api/config"
 )
 
 // BastionHost returns the bastion host if it can be guessed correctly

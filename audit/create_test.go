@@ -9,7 +9,7 @@ import (
 	dstu2dt "github.com/google/fhir/go/proto/google/fhir/proto/dstu2/datatypes_go_proto"
 	dstu2pb "github.com/google/fhir/go/proto/google/fhir/proto/dstu2/resources_go_proto"
 
-	"github.com/philips-software/go-hsdp-api/audit"
+	"github.com/dip-software/go-dip-api/audit"
 
 	"github.com/stretchr/testify/assert"
 )

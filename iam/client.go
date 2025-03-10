@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 
+	autoconf "github.com/dip-software/go-dip-api/config"
 	"github.com/go-playground/validator/v10"
 	"github.com/google/go-querystring/query"
-	autoconf "github.com/philips-software/go-hsdp-api/config"
 	hsdpsigner "github.com/philips-software/go-nih-signer"
 )
 
@@ -25,7 +25,7 @@ type tokenType int
 type ContextKey string
 
 const (
-	userAgent       = "go-hsdp-api/iam/" + internal.LibraryVersion
+	userAgent       = "go-dip-api/iam/" + internal.LibraryVersion
 	loginAPIVersion = "2"
 )
 

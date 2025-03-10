@@ -3,11 +3,11 @@ package blr
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/go-playground/validator/v10"
 	"net/http"
 	"time"
 
-	"github.com/go-playground/validator/v10"
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 )
 
 type BlobsService struct {

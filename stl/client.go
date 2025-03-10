@@ -6,15 +6,15 @@ import (
 	"io"
 	"net/http"
 
+	autoconf "github.com/dip-software/go-dip-api/config"
+	"github.com/dip-software/go-dip-api/console"
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/hasura/go-graphql-client"
-	autoconf "github.com/philips-software/go-hsdp-api/config"
-	"github.com/philips-software/go-hsdp-api/console"
-	"github.com/philips-software/go-hsdp-api/internal"
 	"golang.org/x/oauth2"
 )
 
 const (
-	userAgent = "go-hsdp-api/edge/" + internal.LibraryVersion
+	userAgent = "go-dip-api/edge/" + internal.LibraryVersion
 )
 
 // OptionFunc is the function signature function for options

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/dicom"
+	"github.com/dip-software/go-dip-api/dicom"
 	"github.com/stretchr/testify/assert"
 )
 

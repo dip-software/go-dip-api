@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/dip-software/go-dip-api/console"
+	"github.com/dip-software/go-dip-api/stl"
 	"github.com/hasura/go-graphql-client"
-	"github.com/philips-software/go-hsdp-api/console"
-	"github.com/philips-software/go-hsdp-api/stl"
 	"github.com/stretchr/testify/assert"
 )
 

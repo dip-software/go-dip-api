@@ -12,4 +12,4 @@ release will receive security related patches.
 
 ## Reporting a Vulnerability
 
-Please use the [Github Issue Tracker](https://github.com/philips-software/go-hsdp-api/issues) to report security vulnerabilities
+Please use the [Github Issue Tracker](https://github.com/dip-software/go-dip-api/issues) to report security vulnerabilities

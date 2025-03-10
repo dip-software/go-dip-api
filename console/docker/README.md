@@ -1,6 +1,6 @@
 # HSP Docker
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/philips-software/go-hsdp-api@main/console/docker.svg)](https://pkg.go.dev/github.com/philips-software/go-hsdp-api@main/console/docker)
+[![Go Reference](https://pkg.go.dev/badge/github.com/dip-software/go-dip-api@main/console/docker.svg)](https://pkg.go.dev/github.com/dip-software/go-dip-api@main/console/docker)
 
 The docker client provides access to the HSDP Docker registry.
 
@@ -15,8 +15,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/philips-software/go-hsdp-api/console"
-	"github.com/philips-software/go-hsdp-api/console/docker"
+	"github.com/dip-software/go-dip-api/console"
+	"github.com/dip-software/go-dip-api/console/docker"
 )
 
 func main() {

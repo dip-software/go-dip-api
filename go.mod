@@ -1,4 +1,4 @@
-module github.com/philips-software/go-hsdp-api
+module github.com/dip-software/go-dip-api
 
 go 1.20
 

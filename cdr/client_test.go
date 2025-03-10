@@ -10,9 +10,9 @@ import (
 	"github.com/google/fhir/go/fhirversion"
 	"github.com/google/fhir/go/jsonformat"
 
-	"github.com/philips-software/go-hsdp-api/cdr"
+	"github.com/dip-software/go-dip-api/cdr"
 
-	"github.com/philips-software/go-hsdp-api/iam"
+	"github.com/dip-software/go-dip-api/iam"
 	"github.com/stretchr/testify/assert"
 )
 

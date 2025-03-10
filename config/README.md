@@ -5,7 +5,7 @@ machine readable this enables auto configuration of endpoints.
 
 # Canonical source
 The canonical source for configuration is:
-https://github.com/philips-software/go-hsdp-api/blob/master/config/hsdp.json
+https://github.com/dip-software/go-dip-api/blob/master/config/hsdp.json
 
 # Example
 Determine the IAM base URL of a region and environment
@@ -16,7 +16,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/philips-software/go-hsdp-api/config"
+	"github.com/dip-software/go-dip-api/config"
 )
 
 func main() {

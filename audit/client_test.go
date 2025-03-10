@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/audit"
+	"github.com/dip-software/go-dip-api/audit"
 
 	"github.com/stretchr/testify/assert"
 )

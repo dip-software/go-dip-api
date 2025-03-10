@@ -1,9 +1,9 @@
 package practitioner
 
 import (
+	identifierhelper "github.com/dip-software/go-dip-api/cdr/helper/fhir/r4/identifier"
 	r4dt "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	r4pprac "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/practitioner_go_proto"
-	identifierhelper "github.com/philips-software/go-hsdp-api/cdr/helper/fhir/r4/identifier"
 )
 
 type WithFunc func(resource *r4pprac.Practitioner) error

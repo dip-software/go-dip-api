@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/console"
+	"github.com/dip-software/go-dip-api/console"
 
 	"github.com/stretchr/testify/assert"
 )

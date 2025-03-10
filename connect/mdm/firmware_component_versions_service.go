@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/go-playground/validator/v10"
-	"github.com/philips-software/go-hsdp-api/internal"
 )
 
 type FirmwareComponentVersionsService struct {

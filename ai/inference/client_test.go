@@ -8,9 +8,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/ai"
-	"github.com/philips-software/go-hsdp-api/ai/inference"
-	"github.com/philips-software/go-hsdp-api/iam"
+	"github.com/dip-software/go-dip-api/ai"
+	"github.com/dip-software/go-dip-api/ai/inference"
+	"github.com/dip-software/go-dip-api/iam"
 	"github.com/stretchr/testify/assert"
 )
 

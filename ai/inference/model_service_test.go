@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/ai"
-	"github.com/philips-software/go-hsdp-api/ai/inference"
+	"github.com/dip-software/go-dip-api/ai"
+	"github.com/dip-software/go-dip-api/ai/inference"
 	"github.com/stretchr/testify/assert"
 )
 

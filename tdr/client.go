@@ -12,14 +12,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 
+	"github.com/dip-software/go-dip-api/iam"
 	"github.com/google/go-querystring/query"
-	"github.com/philips-software/go-hsdp-api/iam"
 )
 
 const (
-	userAgent = "go-hsdp-api/tdr/" + internal.LibraryVersion
+	userAgent = "go-dip-api/tdr/" + internal.LibraryVersion
 )
 
 // OptionFunc is the function signature function for options

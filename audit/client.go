@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/google/fhir/go/fhirversion"
-	"github.com/philips-software/go-hsdp-api/internal"
 
 	signer "github.com/philips-software/go-nih-signer"
 
@@ -19,7 +19,7 @@ import (
 )
 
 const (
-	userAgent  = "go-hsdp-api/audit/" + internal.LibraryVersion
+	userAgent  = "go-dip-api/audit/" + internal.LibraryVersion
 	APIVersion = "2"
 )
 

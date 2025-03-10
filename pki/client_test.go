@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/console"
+	"github.com/dip-software/go-dip-api/console"
 
-	"github.com/philips-software/go-hsdp-api/pki"
+	"github.com/dip-software/go-dip-api/pki"
 
-	"github.com/philips-software/go-hsdp-api/iam"
+	"github.com/dip-software/go-dip-api/iam"
 	"github.com/stretchr/testify/assert"
 )
 

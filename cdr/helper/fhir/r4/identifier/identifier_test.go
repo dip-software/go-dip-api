@@ -1,11 +1,11 @@
 package identifier_test
 
 import (
+	r4dt "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	"testing"
 
+	"github.com/dip-software/go-dip-api/cdr/helper/fhir/r4/identifier"
 	r4gp "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
-	r4dt "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/philips-software/go-hsdp-api/cdr/helper/fhir/r4/identifier"
 	"github.com/stretchr/testify/assert"
 )
 

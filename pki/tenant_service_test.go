@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/philips-software/go-hsdp-api/pki"
+	"github.com/dip-software/go-dip-api/pki"
 
 	"github.com/stretchr/testify/assert"
 )

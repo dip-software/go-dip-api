@@ -1,7 +1,7 @@
 package internal_test
 
 import (
-	"github.com/philips-software/go-hsdp-api/internal"
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

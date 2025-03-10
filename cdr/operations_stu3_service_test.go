@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/dip-software/go-dip-api/cdr"
 	"github.com/google/fhir/go/fhirversion"
-	"github.com/philips-software/go-hsdp-api/cdr"
 
 	jsonpatch "github.com/evanphx/json-patch/v5"
 	"github.com/stretchr/testify/assert"

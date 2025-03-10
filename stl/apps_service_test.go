@@ -2,7 +2,7 @@ package stl_test
 
 import (
 	"context"
-	"github.com/philips-software/go-hsdp-api/stl"
+	"github.com/dip-software/go-dip-api/stl"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"net/http"

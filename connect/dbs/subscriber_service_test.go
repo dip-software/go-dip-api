@@ -2,7 +2,7 @@ package dbs_test
 
 import (
 	"fmt"
-	"github.com/philips-software/go-hsdp-api/connect/dbs"
+	"github.com/dip-software/go-dip-api/connect/dbs"
 	"io"
 	"net/http"
 	"testing"

@@ -1,17 +1,17 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/125caa4282d4d82b84cd/maintainability)](https://codeclimate.com/github/philips-software/go-hsdp-api/maintainability)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/philips-software/go-hsdp-api)](https://pkg.go.dev/github.com/philips-software/go-hsdp-api)
+[![Maintainability](https://api.codeclimate.com/v1/badges/125caa4282d4d82b84cd/maintainability)](https://codeclimate.com/github/dip-software/go-dip-api/maintainability)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/dip-software/go-dip-api)](https://pkg.go.dev/github.com/dip-software/go-dip-api)
 
-# go-hsdp-api
+# go-dip-api
 
-A HSDP API client library enabling Go programs to interact with various HSDP APIs in a simple and uniform way
+A DIP API client library enabling Go programs to interact with various DIP APIs in a simple and uniform way
 
 > [!Important]
-> This library is not endorsed, supported or approved by HSDP. It is a Philips Open Source community managed project. Please do not raise
-> SNOW tickets, instead open a issue on the [Github project](https://github.com/philips-software/go-hsdp-api/issues).
+> This library is not endorsed, supported or approved by any corporate entity. It is a DIP Software Open Source community managed project. Please do not raise
+> SNOW tickets, instead open a issue on the [Github project](https://github.com/dip-software/go-dip-api/issues).
 
 ## Supported APIs
 
-The current implement covers only a subset of HSDP APIs. Basically, we implement functionality as needed.
+The current implement covers only a subset of DIP APIs. Basically, we implement functionality as needed.
 
 
 - [x] Cartel c.q. Container Host management ([examples](cartel/README.md))
@@ -130,7 +130,7 @@ package main
 import (
         "fmt"
 
-        "github.com/philips-software/go-hsdp-api/iam"
+        "github.com/dip-software/go-dip-api/iam"
 )
 
 func main() {
@@ -158,11 +158,7 @@ func main() {
 
 ## Issues
 
-- If you discover an issue: report it on the [issue tracker](https://github.com/philips-software/go-hsdp-api/issues)
-
-## Contact / Getting help
-
-Andy Lo-A-Foe (<andy.lo-a-foe@philips.com>)
+- If you discover an issue: report it on the [issue tracker](https://github.com/dip-software/go-dip-api/issues)
 
 ## License
 

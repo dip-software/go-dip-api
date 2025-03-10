@@ -6,14 +6,14 @@ import (
 	"io"
 	"net/http"
 
+	autoconf "github.com/dip-software/go-dip-api/config"
+	"github.com/dip-software/go-dip-api/console"
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/hasura/go-graphql-client"
-	autoconf "github.com/philips-software/go-hsdp-api/config"
-	"github.com/philips-software/go-hsdp-api/console"
-	"github.com/philips-software/go-hsdp-api/internal"
 )
 
 const (
-	userAgent = "go-hsdp-api/docker/" + internal.LibraryVersion
+	userAgent = "go-dip-api/docker/" + internal.LibraryVersion
 )
 
 // OptionFunc is the function signature function for options

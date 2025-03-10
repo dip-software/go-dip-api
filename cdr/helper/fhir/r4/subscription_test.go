@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/philips-software/go-hsdp-api/cdr/helper/fhir/r4"
+	"github.com/dip-software/go-dip-api/cdr/helper/fhir/r4"
 )
 
 func TestNewR4Subscription(t *testing.T) {
