@@ -4,10 +4,8 @@ import (
 	"io"
 	"net/http"
 	"net/http/httptest"
-	"os"
 	"testing"
 
-	"github.com/dip-software/go-dip-api/ai"
 	"github.com/dip-software/go-dip-api/iam"
 	"github.com/stretchr/testify/assert"
 )
@@ -21,7 +19,6 @@ var (
 	serverAI  *httptest.Server
 
 	iamClient  *iam.Client
-	aiClient   *ai.Client
 	aiTenantID = "48a0183d-a588-41c2-9979-737d15e9e860"
 	userUUID   = "e7fecbb2-af8c-47c9-a662-5b046e048bc5"
 )
@@ -126,20 +123,9 @@ func setup(t *testing.T) func() {
 	err = iamClient.Login("username", "password")
 	assert.Nil(t, err)
 
-	aiClient, err = ai.NewClient(iamClient, &ai.Config{
-		BaseURL:        serverAI.URL,
-		OrganizationID: aiTenantID,
-		Service:        "inference",
-	})
-	if !assert.Nilf(t, err, "failed to create notificationClient: %v", err) {
-		return func() {
-		}
-	}
-
 	return func() {
 		serverIAM.Close()
 		serverIDM.Close()
-		serverAI.Close()
 	}
 }
 
@@ -158,34 +144,4 @@ func TestLogin(t *testing.T) {
 		return
 	}
 	assert.Equal(t, token, accessToken)
-}
-
-func TestDebug(t *testing.T) {
-	teardown := setup(t)
-	defer teardown()
-
-	tempFile, err := os.CreateTemp("", "example")
-	if err != nil {
-		t.Fatalf("Error: %v", err)
-	}
-
-	aiClient, err = ai.NewClient(iamClient, &ai.Config{
-		BaseURL:        serverAI.URL,
-		DebugLog:       tempFile,
-		Service:        "inference",
-		OrganizationID: "xxx",
-	})
-	if !assert.Nil(t, err) {
-		return
-	}
-
-	defer aiClient.Close()
-	defer func() {
-		_ = os.Remove(tempFile.Name())
-	}() // clean up
-
-	err = iamClient.Login("username", "password")
-	if !assert.Nil(t, err) {
-		return
-	}
 }

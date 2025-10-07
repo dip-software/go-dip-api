@@ -105,22 +105,6 @@ The current implement covers only a subset of DIP APIs. Basically, we implement 
   - [x] Namespace management
   - [x] Repository management
 - [x] IronIO tasks, codes and schedules management ([examples](iron/README.md))
-- [x] Clinical Data Lake (CDL) management
-  - [x] Research Studies
-  - [x] Data Type Definitions
-  - [x] Label Definitions
-  - [x] Export Routes
-- [x] AI Inference
-  - [x] Compute Environment management
-  - [x] Compute Target managements
-  - [x] Model management
-  - [x] Inference Job management
-- [x] AI Training
-  - [x] Compute Environment management
-  - [x] Model management
-- [x] AI Workspace
-  - [x] Compute Target management
-  - [x] Workspace management
 
 ## Example usage
 
