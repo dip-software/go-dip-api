@@ -12,7 +12,6 @@ import (
 
 type SubscribersService struct {
 	*Client
-	validate *validator.Validate
 }
 
 var (
