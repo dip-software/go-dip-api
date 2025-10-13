@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/dip-software/go-dip-api/internal"
 	"github.com/go-playground/validator/v10"
-	"github.com/philips-software/go-hsdp-api/internal"
 )
 
 type SubscribersService struct {
