@@ -231,6 +231,9 @@
             "pki": {
               "url": "https://pki-proxy-client-test.eu-west.philips-healthsuite.com"
             },
+            "provisioning": {
+              "url": "https://provisioning-client-test.eu01.connect.hsdp.io/client-test/connect/provisioning"
+            },
             "s3creds": {
               "url": "https://s3creds-client-test.eu-west.philips-healthsuite.com"
             },
@@ -430,6 +433,9 @@
             },
             "pki": {
               "url": "https://pki-client-test.us-east.philips-healthsuite.com"
+            },
+            "provisioning": {
+              "url": "https://provisioning-client-test.us01.connect.hsdp.io/client-test/connect/provisioning"
             },
             "s3creds": {
               "url": "https://s3creds-client-test.us-east.philips-healthsuite.com"
