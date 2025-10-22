@@ -47,7 +47,7 @@ type BootStrapSignatureConfig struct {
 // GetOrgConfiguration struct describes search criteria for looking up OrgConfiguration
 type GetOrgConfiguration struct {
 	ID               *string `url:"_id,omitempty"`
-	OrganizationGuid *string `url:"organizationGuid,omitempty"`
+	OrganizationGuid *string `url:"_organizationGuid,omitempty"`
 }
 
 type Meta struct {
