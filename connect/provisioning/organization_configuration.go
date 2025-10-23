@@ -52,7 +52,7 @@ type GetOrgConfiguration struct {
 
 type Meta struct {
 	LastUpdated time.Time `json:"lastUpdated,omitempty"`
-	VersionID   string    `json:"versionId,omitempty"`
+	VersionID   int       `json:"versionId,omitempty"`
 }
 type OrgConfigurationsService struct {
 	*Client
