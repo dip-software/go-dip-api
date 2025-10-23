@@ -381,11 +381,25 @@ url = "https://connect-mdm.eu01.iot.hsdp.io/connect/mdm"
 [region.cn1.prod.service.connect-mdm]
 url = "https://connect-mdm.cn1.iot.philips-healthsuite.com.cn/connect/mdm"
 
+# Service PROVISIONING
+[region.us-east.env.client-test.service.provisioning]
+url = "https://provisioning-client-test.us01.connect.hsdp.io/client-test/connect/provisioning"
+[region.eu-west.env.client-test.service.provisioning]
+url = "https://provisioning-client-test.eu01.connect.hsdp.io/client-test/connect/provisioning"
+[region.eu-west.env.prod.service.provisioning]
+url = "https://provisioning.eu01.iot.hsdp.io/connect/provisioning"
+[region.us-east.env.prod.service.provisioning]
+url = "https://provisioning.us01.iot.hsdp.io/connect/provisioning"
+
 # Service DISCOVERY
 [region.us-east.env.client-test.service.discovery]
 url = "https://discovery-client-test.us01.connect.hsdp.io/client-test/core/discovery"
 [region.eu-west.env.client-test.service.discovery]
 url = "https://discovery-client-test.eu01.connect.hsdp.io/client-test/core/discovery"
+[region.eu-west.env.prod.service.discovery]
+url = "https://discovery.eu01.iot.hsdp.io/core/discovery"
+[region.us-east.env.prod.service.discovery]
+url = "https://discovery.us01.iot.hsdp.io/core/discovery"
 
 # Service BLR
 [region.us-east.env.client-test.service.blr]

@@ -40,19 +40,19 @@ type BootstrapSignature struct {
 
 type BootStrapSignatureConfig struct {
 	Type       string `json:"type" enum:"RSA|ECC|DSA"`
-	Padding    string `json:"Padding" enum:"RSA_PKCS1_PSS_PADDING"`
+	Padding    string `json:"padding" enum:"RSA_PKCS1_PSS_PADDING"`
 	SaltLength string `json:"saltLength" enum:"RSA_PSS_SALTLEN_DIGEST|RSA_PSS_SALTLEN_MAX_SIGN|RSA_PSS_SALTLEN_AUTO"`
 }
 
 // GetOrgConfiguration struct describes search criteria for looking up OrgConfiguration
 type GetOrgConfiguration struct {
 	ID               *string `url:"_id,omitempty"`
-	OrganizationGuid *string `url:"organizationGuid,omitempty"`
+	OrganizationGuid *string `url:"_organizationGuid,omitempty"`
 }
 
 type Meta struct {
 	LastUpdated time.Time `json:"lastUpdated,omitempty"`
-	VersionID   string    `json:"versionId,omitempty"`
+	VersionID   int       `json:"versionId,omitempty"`
 }
 type OrgConfigurationsService struct {
 	*Client
@@ -164,5 +164,6 @@ func (b *OrgConfigurationsService) FindOrgConfiguration(opt *GetOrgConfiguration
 			resources = append(resources, resource)
 		}
 	}
+
 	return &resources, resp, err
 }
