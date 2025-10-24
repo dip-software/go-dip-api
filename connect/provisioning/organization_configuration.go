@@ -86,7 +86,6 @@ func (b *OrgConfigurationsService) CreateOrganizationConfiguration(orgConfig Org
 func (b *OrgConfigurationsService) UpdateOrganizationConfiguration(orgConfig OrgConfiguration) (*OrgConfiguration, *Response, error) {
 	orgConfig.ResourceType = "OrgConfiguration"
 	id := orgConfig.ID
-	orgConfig.ID = "" // Server does not like a value here
 	if err := b.validate.Struct(orgConfig); err != nil {
 		return nil, nil, err
 	}
