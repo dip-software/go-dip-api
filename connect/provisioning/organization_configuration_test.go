@@ -94,6 +94,32 @@ func TestOrgConfigCRUD(t *testing.T) {
 	assert.Equal(t, organizationGuid, created.OrganizationGuid)
 	assert.Equal(t, orgConfigID, created.ID)
 
+	found, resp, err := provisioningClient.OrgConfigurationsService.GetOrganizationConfigurationByID(orgConfigID)
+	if !assert.Nil(t, err) {
+		return
+	}
+	if !assert.NotNil(t, resp) {
+		return
+	}
+	if !assert.NotNil(t, found) {
+		return
+	}
+	assert.Equal(t, http.StatusOK, resp.StatusCode())
+	assert.Equal(t, orgConfigID, found.ID)
+
+	updated, resp, err := provisioningClient.OrgConfigurationsService.UpdateOrganizationConfiguration(*created)
+	if !assert.Nil(t, err) {
+		return
+	}
+	if !assert.NotNil(t, resp) {
+		return
+	}
+	if !assert.NotNil(t, updated) {
+		return
+	}
+	assert.Equal(t, organizationGuid, updated.OrganizationGuid)
+	assert.Equal(t, orgConfigID, updated.ID)
+
 	res, resp, err := provisioningClient.OrgConfigurationsService.DeleteOrganizationConfiguration(*created)
 	if !assert.Nil(t, err) {
 		return
