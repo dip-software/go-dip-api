@@ -11,7 +11,7 @@ require (
 	github.com/google/fhir/go v0.7.4
 	github.com/google/go-querystring v1.1.0
 	github.com/google/uuid v1.6.0
-	github.com/hasura/go-graphql-client v0.14.5
+	github.com/hasura/go-graphql-client v0.15.0
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/oauth2 v0.32.0
 )
