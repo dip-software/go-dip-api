@@ -13,7 +13,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/hasura/go-graphql-client v0.14.5
 	github.com/stretchr/testify v1.11.1
-	golang.org/x/oauth2 v0.32.0
+	golang.org/x/oauth2 v0.34.0
 )
 
 require (
