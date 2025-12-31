@@ -9,7 +9,7 @@ require (
 	github.com/go-playground/validator/v10 v10.30.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/google/fhir/go v0.7.4
-	github.com/google/go-querystring v1.1.0
+	github.com/google/go-querystring v1.2.0
 	github.com/google/uuid v1.6.0
 	github.com/hasura/go-graphql-client v0.15.1
 	github.com/stretchr/testify v1.11.1
