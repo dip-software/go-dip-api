@@ -14,13 +14,6 @@ The current implement covers only a subset of DIP APIs. Basically, we implement 
 
 
 - [x] Cartel c.q. Container Host management ([examples](cartel/README.md))
-- [x] Clinical Data Repository (CDR)
-  - [x] Tenant Onboarding
-  - [x] Subscription management
-  - [x] FHIR CRUD
-  - [x] FHIR Patch
-  - [x] STU3
-  - [x] R4
 - [x] Connect IoT
   - [x] Master Data Management (MDM)
     - [x] Propositions
@@ -91,9 +84,6 @@ The current implement covers only a subset of DIP APIs. Basically, we implement 
 - [x] Telemetry Data Repository (TDR)
   - [x] Contract management
   - [x] Data Item management
-- [x] S3Creds Policy management
-- [x] DICOM Store
-  - [x] Config management
 - [x] Notification service
 - [x] Service Discovery
 - [x] Console settings

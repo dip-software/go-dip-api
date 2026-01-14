@@ -27,7 +27,7 @@ type Config struct {
 	host         string
 }
 
-// A Client manages communication with HSDP DICOM API
+// A Client manages communication with HSDP Registry API
 type Client struct {
 	// HTTP consoleClient used to communicate with IAM API
 	*console.Client
@@ -36,7 +36,7 @@ type Client struct {
 
 	config *Config
 
-	// User agent used when communicating with the HSDP DICOM API.
+	// User agent used when communicating with the HSDP Registry API.
 	UserAgent string
 
 	ServiceKeys  *ServiceKeysService
