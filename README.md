@@ -1,4 +1,3 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/125caa4282d4d82b84cd/maintainability)](https://codeclimate.com/github/dip-software/go-dip-api/maintainability)
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/dip-software/go-dip-api)](https://pkg.go.dev/github.com/dip-software/go-dip-api)
 
 # go-dip-api
